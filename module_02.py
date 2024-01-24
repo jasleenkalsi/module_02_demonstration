@@ -68,3 +68,41 @@ print(centered_string)
 
 uppercase = original_string.upper() 
 print(uppercase)
+
+# Standard Operators
+# +
+result = 5 + 5
+print(result)
+
+# -
+result = 5 - 5
+print(result)
+
+# *
+result = 5 * 5
+print(result)
+
+# / division
+result = 5 / 5
+print(result)
+
+# // florr division or integer division
+result = 42 / 4
+print(result)
+
+# % modulus - remainder
+result = 100 % 5
+print(result)
+
+# ** power
+result = 2 ** 4
+
+age = 25
+age = age + 1
+print (age)
+
+age += 1
+print(age)
+
+result = ( (10 + 5) * 2) / 3 - 1
+print(result) = 9.0
