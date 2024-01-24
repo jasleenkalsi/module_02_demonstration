@@ -39,3 +39,32 @@ print(f"The value is {number:05}.")
 print(f"hello, {name:>10}.")
 
 print("Hello\tworld.\n\nHello \'World.\'")
+
+current_salary = 67293.23
+is_employed = True
+
+print(type(name))
+print(type(age))
+print(type(current_salary))
+print(type(is_employed))
+
+age_and_salary = age + current_salary
+print(age_and_salary)
+print(type(age_and_salary))
+
+print(float(age))
+print(int(current_salary))
+
+# Strings
+original_string = "hello, world!"
+print(original_string)
+original_string = original_string.capitalize()
+print(original_string)
+
+width = 20
+fill_char = '-'
+centered_string = original_string.center(width, fill_char)
+print(centered_string)
+
+uppercase = original_string.upper() 
+print(uppercase)
